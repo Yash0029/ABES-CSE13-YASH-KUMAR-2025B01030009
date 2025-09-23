@@ -1,0 +1,65 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+ 
+/* Card styling */
+.card {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: rgb(138, 221, 145);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+ 
+/* Avatar image */
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #4e5053;
+  margin-bottom: 15px;
+}
+ 
+/* Bio text */
+.bio {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+ 
+/* Button */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #4c4d50;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  
+}
+.btn:hover {
+  background: #282829;
+  transition: 3s;
+  /* border-radius: 56px; */
+  /* transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5); */
+  /* transform: scale(2) rotate(45deg);
+  opacity: 0.3; */
+  /* transform: scaleX(1); */
+  /* transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 0 15px #646cff50; */
+    transform: rotatex(0deg);
+  transform: rotatez(0deg);
+  transition:.6s;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}

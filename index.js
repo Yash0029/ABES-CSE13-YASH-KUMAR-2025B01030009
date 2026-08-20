@@ -153,6 +153,6 @@
     
 
 console.log("one");
-console.log("two");
+setTimeout(() => {console.log("two"); }, 1000);
 console.log("three");
 console.log("four");

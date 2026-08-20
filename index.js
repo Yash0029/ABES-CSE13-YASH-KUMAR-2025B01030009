@@ -156,3 +156,52 @@
 // setTimeout(() => {console.log("two"); }, 1000);
 // console.log("three");
 // console.log("four");
+
+// function sumofsqrt(a,b){
+//     return Math.sqrt(a) + Math.sqrt(b);
+// }
+
+// function myname(){
+//     return "Yash Kumar";
+// }
+
+// console.log(myname() + " " + sumofsqrt(4,9));
+
+
+
+const myPromise = new Promise((resolve, reject) => {
+    let username = "Yash";
+    let password = "1234";
+
+    if (username == "Yash" && password == "12345") {
+        resolve("Login Successful");
+    } else {
+        reject("Invalid username or password");
+    }
+});
+
+// myPromise
+//     .then((msg) => {
+//         console.log(msg);
+//     })
+//     .catch((error) => {
+//         console.log(error);
+//     })
+//     .finally(() => {
+//         console.log("all resource are closed");
+//     });
+
+async function loginhandler() {
+    try {
+        const loginstatus =await myPromise;
+        console.log(loginstatus);
+    }
+    catch (error) {
+        console.log(error);
+    }
+    finally {
+        console.log("all resource are closed");
+    }
+}
+
+loginhandler();

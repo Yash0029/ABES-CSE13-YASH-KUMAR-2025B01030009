@@ -201,7 +201,7 @@ async function loginhandler() {
     }
     finally {
         console.log("all resource are closed");
-    }
+    }              
 }
 
 loginhandler();

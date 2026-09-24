@@ -8,20 +8,27 @@ function Icard(data) {
           margin: "20px",
           padding: "20px",
           textAlign: "center",
-          borderRadius: "10px"
+          borderRadius: "10px",
+          background:"white",
+          color:"Black"
+
+          
         }}
       >
-        <img
-          src={data.img}
-          alt="Profile"
-          style={{
-            width: "150px",
-            height: "180px",
-            objectFit: "cover"
-          }}
-        />
+       <img
+  src={data.img}
+  alt="Profile"
+  style={{
+    width: "150px",
+    height: "150px",
+    objectFit: "cover",
+    borderRadius: "50%",
+    flexShrink: 0 // Prevents the container from squeezing the image into an oval
+  }}
+/>
+
   
-        <h2>Name: {data.name}</h2>
+        <h2 style={{color:"black"}}>Name: {data.name}</h2>
         <p>Age: {data.age}</p>
         <p>College: {data.college}</p>
       </div>

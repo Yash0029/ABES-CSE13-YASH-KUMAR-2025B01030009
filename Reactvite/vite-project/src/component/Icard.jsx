@@ -10,9 +10,9 @@ function Icard(data) {
           textAlign: "center",
           borderRadius: "10px",
           background:"white",
-          color:"Black"
+          color:"Black",
 
-          
+         
         }}
       >
        <img
@@ -23,7 +23,7 @@ function Icard(data) {
     height: "150px",
     objectFit: "cover",
     borderRadius: "50%",
-    flexShrink: 0 // Prevents the container from squeezing the image into an oval
+    flexShrink: 0 
   }}
 />
 

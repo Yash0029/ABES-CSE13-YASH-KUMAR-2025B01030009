@@ -74,12 +74,24 @@
 // export default App
 
 
-import ICardGallery from "./component/ICardGallery";
+// import ICardGallery from "./component/ICardGallery";
+
+// function App() {
+//   return (
+//     <div>
+//       <ICardGallery />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+import ImdbGallery from "./component/ImdbGallery";
 
 function App() {
   return (
     <div>
-      <ICardGallery />
+      <ImdbGallery />
     </div>
   );
 }

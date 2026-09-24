@@ -25,7 +25,7 @@ function ICardGallery() {
   ];
 
   return (
-    <div>
+    <div style={{display:"flex"}}>
       {student.map((data) => (
         <Icard {...data} />
       ))}

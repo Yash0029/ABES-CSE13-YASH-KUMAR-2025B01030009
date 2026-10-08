@@ -13,57 +13,57 @@
 //     section: "CSE-13"
 //   }
 
-//   // return (
-//   //   <div style={{
-//   //     width: "350px",
-//   //     margin: "50px auto",
-//   //     border: "2px solid white",
-//   //     textAlign: "center",
-//   //     backgroundColor:"yellow"
-//   //   }}>
+//   return (
+//     <div style={{
+//       width: "350px",
+//       margin: "50px auto",
+//       border: "2px solid white",
+//       textAlign: "center",
+//       backgroundColor:"yellow"
+//     }}>
 
-//   //     <div style={{
-//   //       backgroundColor: "Red",
-//   //       padding: "10px",
-//   //       color:"black"
-//   //     }}>
-//   //       <h2>ABES Engineering College</h2>
-//   //       <p>Student Identity Card</p>
-//   //     </div>
+//       <div style={{
+//         backgroundColor: "Red",
+//         padding: "10px",
+//         color:"black"
+//       }}>
+//         <h2>ABES Engineering College</h2>
+//         <p>Student Identity Card</p>
+//       </div>
 
-//   //     <div style={{
-//   //       padding: "20px",
-//   //        backgroundColor:"white"
-//   //     }}>
+//       <div style={{
+//         padding: "20px",
+//          backgroundColor:"white"
+//       }}>
 
-//   //       <img
-//   //         src={car}
-//   //         alt="Student"
-//   //         style={{
-//   //           width: "120px",
-//   //           height: "120px",
+//         <img
+//           src={car}
+//           alt="Student"
+//           style={{
+//             width: "120px",
+//             height: "120px",
            
-//   //         }}
-//   //       />
+//           }}
+//         />
 
-//   //       <h2 style={{
-//   //         color:"black"
-//   //       }}>{student.name}</h2>
+//         <h2 style={{
+//           color:"black"
+//         }}>{student.name}</h2>
 
-//   //       <p><b>Course:</b> {student.course}</p>
-//   //       <p><b>Roll No:</b> {student.rollNo}</p>
-//   //       <p><b>Year:</b> {student.year}</p>
-//   //       <p><b>Section:</b> {student.section}</p>
+//         <p><b>Course:</b> {student.course}</p>
+//         <p><b>Roll No:</b> {student.rollNo}</p>
+//         <p><b>Year:</b> {student.year}</p>
+//         <p><b>Section:</b> {student.section}</p>
 
-//   //     </div>
+//       </div>
 
       
-//   //       <p>{student.college}</p>
-//   //     </div>
+//         <p>{student.college}</p>
+//       </div>
 
    
-//   // )
-// // }
+//   )
+// }
 // return (
 //   <div>
 //     <ICardGallery />
@@ -86,14 +86,41 @@
 
 // export default App;
 
-import ImdbGallery from "./component/ImdbGallery";
+// import ImdbGallery from "./component/ImdbGallry";
+
+// function App() {
+//   return (
+//     <div>
+//       <ImdbGallery />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+// import React from "react";
+// import UseReactState from "./component/UseReactState";
+
+// function App() {
+//   return (
+//     <div>
+//       <UseReactState />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+import React from 'react'
+import ImageManipulation from './component/imagemanipulation'
 
 function App() {
   return (
     <div>
-      <ImdbGallery />
+      <ImageManipulation />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
